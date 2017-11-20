@@ -7,6 +7,10 @@ Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Authorization", "Authorizat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.WebApi", "Authorization.WebApi\Authorization.WebApi.csproj", "{4FF84CF6-BA26-40F2-AD34-F196F6E8BB64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User", "User\User.csproj", "{C72C076E-06F3-4D81-AB05-62B248719414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Interfaces", "User.Interfaces\Authorization.Interfaces.csproj", "{3E4F5963-88ED-4E96-9E56-5D244376AC7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,18 @@ Global
 		{4FF84CF6-BA26-40F2-AD34-F196F6E8BB64}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4FF84CF6-BA26-40F2-AD34-F196F6E8BB64}.Release|x64.ActiveCfg = Release|Any CPU
 		{4FF84CF6-BA26-40F2-AD34-F196F6E8BB64}.Release|x64.Build.0 = Release|Any CPU
+		{C72C076E-06F3-4D81-AB05-62B248719414}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C72C076E-06F3-4D81-AB05-62B248719414}.Debug|x64.ActiveCfg = Debug|x64
+		{C72C076E-06F3-4D81-AB05-62B248719414}.Debug|x64.Build.0 = Debug|x64
+		{C72C076E-06F3-4D81-AB05-62B248719414}.Release|Any CPU.ActiveCfg = Release|x64
+		{C72C076E-06F3-4D81-AB05-62B248719414}.Release|x64.ActiveCfg = Release|x64
+		{C72C076E-06F3-4D81-AB05-62B248719414}.Release|x64.Build.0 = Release|x64
+		{3E4F5963-88ED-4E96-9E56-5D244376AC7C}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{3E4F5963-88ED-4E96-9E56-5D244376AC7C}.Debug|x64.ActiveCfg = Debug|x64
+		{3E4F5963-88ED-4E96-9E56-5D244376AC7C}.Debug|x64.Build.0 = Debug|x64
+		{3E4F5963-88ED-4E96-9E56-5D244376AC7C}.Release|Any CPU.ActiveCfg = Release|x64
+		{3E4F5963-88ED-4E96-9E56-5D244376AC7C}.Release|x64.ActiveCfg = Release|x64
+		{3E4F5963-88ED-4E96-9E56-5D244376AC7C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
