@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Authorization", "Authorization\Authorization.sfproj", "{3CA64D96-CAAF-49A2-B163-5DE0050E9D48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.WebApi", "Authorization.WebApi\Authorization.WebApi.csproj", "{4FF84CF6-BA26-40F2-AD34-F196F6E8BB64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization.WebApi", "Authorization.WebApi\Authorization.WebApi.csproj", "{4FF84CF6-BA26-40F2-AD34-F196F6E8BB64}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User", "User\User.csproj", "{C72C076E-06F3-4D81-AB05-62B248719414}"
 EndProject
@@ -20,6 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3CA64D96-CAAF-49A2-B163-5DE0050E9D48}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{3CA64D96-CAAF-49A2-B163-5DE0050E9D48}.Debug|Any CPU.Build.0 = Debug|x64
+		{3CA64D96-CAAF-49A2-B163-5DE0050E9D48}.Debug|Any CPU.Deploy.0 = Debug|x64
 		{3CA64D96-CAAF-49A2-B163-5DE0050E9D48}.Debug|x64.ActiveCfg = Debug|x64
 		{3CA64D96-CAAF-49A2-B163-5DE0050E9D48}.Debug|x64.Build.0 = Debug|x64
 		{3CA64D96-CAAF-49A2-B163-5DE0050E9D48}.Debug|x64.Deploy.0 = Debug|x64
@@ -36,12 +38,14 @@ Global
 		{4FF84CF6-BA26-40F2-AD34-F196F6E8BB64}.Release|x64.ActiveCfg = Release|Any CPU
 		{4FF84CF6-BA26-40F2-AD34-F196F6E8BB64}.Release|x64.Build.0 = Release|Any CPU
 		{C72C076E-06F3-4D81-AB05-62B248719414}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C72C076E-06F3-4D81-AB05-62B248719414}.Debug|Any CPU.Build.0 = Debug|x64
 		{C72C076E-06F3-4D81-AB05-62B248719414}.Debug|x64.ActiveCfg = Debug|x64
 		{C72C076E-06F3-4D81-AB05-62B248719414}.Debug|x64.Build.0 = Debug|x64
 		{C72C076E-06F3-4D81-AB05-62B248719414}.Release|Any CPU.ActiveCfg = Release|x64
 		{C72C076E-06F3-4D81-AB05-62B248719414}.Release|x64.ActiveCfg = Release|x64
 		{C72C076E-06F3-4D81-AB05-62B248719414}.Release|x64.Build.0 = Release|x64
 		{3E4F5963-88ED-4E96-9E56-5D244376AC7C}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{3E4F5963-88ED-4E96-9E56-5D244376AC7C}.Debug|Any CPU.Build.0 = Debug|x64
 		{3E4F5963-88ED-4E96-9E56-5D244376AC7C}.Debug|x64.ActiveCfg = Debug|x64
 		{3E4F5963-88ED-4E96-9E56-5D244376AC7C}.Debug|x64.Build.0 = Debug|x64
 		{3E4F5963-88ED-4E96-9E56-5D244376AC7C}.Release|Any CPU.ActiveCfg = Release|x64
